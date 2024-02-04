@@ -15,6 +15,7 @@ buttons.forEach(button => {
         }
         else if(e.target.innerHTML=='DEL')
         {
+            s=input.value;
             s=s.substring(0,s.length-1);
             input.value=s;
         }
